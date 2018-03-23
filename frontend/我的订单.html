@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" name="viewport" />
+		<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+		<meta content="yes" name="apple-mobile-web-app-capable" />
+		<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>多用户</title>
+	</head>
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/css.css">
+	<script>
+		(function(global){
+			function remChange(){
+				document.documentElement.style.fontSize=20*document.documentElement.clientWidth/1024+'px';
+			}
+			remChange();
+			global.addEventListener('resize',remChange,false);
+		})(window);
+</script>
+<body>
+	<div class="app_hend">
+		         我的订单
+		  <a class="lanep" onclick="javascript:history.back(-1);"><img src="img/sy_icon01.png"></a>
+		  
+	</div>
+	<div class="page_content" >
+	    <div class="appOrder">
+	    	<div class="appOrder_tite">
+	    		<div class="Order_ele">
+	    		    <select>
+	    		    	<option>全部</option>
+	    		    	<option>1</option>
+	    		    </select>	
+	    		</div>
+	    		<div class="Order_inp">
+	    			<input type="text" placeholder="请输入关键字" />
+	    		</div>
+	    		<div class="Order_but">
+	    			<input type="button" value="搜索" />
+	    		</div>
+	    	</div>	
+	    </div>
+	    <div class="appOrder_cont" id="LAY_demo1">
+	    		<div class="Collection">
+	    			<div class="poert"><img src="img/md06.png"></div>
+				 	<a href="我的订单_详情.html" class="Collection_tite">
+				 		***的舒适温暖的家
+				 	</a>
+				 	<div class="Collection_cont1">
+				 		<p><span class="left">订单号：123456789456</span><span class="right">房主名</span></p>
+				 		<p><span class="left">我们村头的豪华别墅</span><span class="right"><b>￥388 </b></span></p>
+				 		<p><a class="left">2017-11-07至2017-11-10</a></p>
+				 		<p><a class="left">天津市西青区某某街道某某小区某某号</a><a class="right"><input type="button" value="导航" class="ioncr" /></a></p>
+				 		<div class="webstate">
+				 			<a href="客房.html" class="right app_button_1">再次订房</a>
+				 			<a class="right app_button_1 spoert" msg-tite="您是否退订？">退 订</a>
+				 		</div>
+				 	</div>
+				 </div>
+				 <div class="Collection">
+	    			<div class="poert"><img src="img/md06-05.png"></div>
+				 	<a class="Collection_tite">
+				 		***的舒适温暖的家
+				 	</a>
+				 	<div class="Collection_cont1">
+				 		<p><span class="left">订单号：123456789456</span><span class="right">房主名</span></p>
+				 		<p><span class="left">我们村头的豪华别墅</span><span class="right"><b>￥388 </b></span></p>
+				 		<p><a class="left">2017-11-07至2017-11-10</a></p>
+				 		<p><a class="left">天津市西青区某某街道某某小区某某号</a><a class="right"><input type="button" value="导航" class="ioncr" /></a></p>
+				 		<div class="webstate">
+				 			<a href="客房.html" class="right app_button_1">再次订房</a>
+				 			<a href="评价.html" class="right app_button_1">评价</a>
+				 			
+				 		</div>
+				 	</div>
+				 </div>
+				 <div class="Collection">
+	    			<div class="poert"><img src="img/md06-07.png"></div>
+				 	<a class="Collection_tite">
+				 		***的舒适温暖的家
+				 	</a>
+				 	<div class="Collection_cont1">
+				 		<p><span class="left">订单号：123456789456</span><span class="right">房主名</span></p>
+				 		<p><span class="left">我们村头的豪华别墅</span><span class="right"><b>￥388 </b></span></p>
+				 		<p><a class="left">2017-11-07至2017-11-10</a></p>
+				 		<p><a class="left">天津市西青区某某街道某某小区某某号</a><a class="right"><input type="button" value="导航" class="ioncr" /></a></p>
+				 		<div class="webstate">
+				 			<a href="付款.html" class="right app_button_1">付款</a>
+				 		</div>
+				 	</div>
+				 </div>
+				 <div class="Collection">
+	    			<div class="poert"><img src="img/md06-09.png"></div>
+				 	<a class="Collection_tite">
+				 		***的舒适温暖的家
+				 	</a>
+				 	<div class="Collection_cont1">
+				 		<p><span class="left">订单号：123456789456</span><span class="right">房主名</span></p>
+				 		<p><span class="left">我们村头的豪华别墅</span><span class="right"><b>￥388 </b></span></p>
+				 		<p><a class="left">2017-11-07至2017-11-10</a></p>
+				 		<p><a class="left">天津市西青区某某街道某某小区某某号</a><a class="right"><input type="button" value="导航" class="ioncr" /></a></p>
+				 		<div class="webstate">
+				 			<a href="客房.html" class="right app_button_1">再次订房</a>
+				 		</div>
+				 	</div>
+				 </div>
+				 <div class="Collection">
+	    			<div class="poert"><img src="img/md06-11.png"></div>
+				 	<a class="Collection_tite">
+				 		***的舒适温暖的家
+				 	</a>
+				 	<div class="Collection_cont1">
+				 		<p><span class="left">订单号：123456789456</span><span class="right">房主名</span></p>
+				 		<p><span class="left">我们村头的豪华别墅</span><span class="right"><b>￥388 </b></span></p>
+				 		<p><a class="left">2017-11-07至2017-11-10</a></p>
+				 		<p><a class="left">天津市西青区某某街道某某小区某某号</a><a class="right"><input type="button" value="导航" class="ioncr" /></a></p>
+				 		<div class="webstate">
+				 			<a class="right app_button_1">到店付</a>
+				 		</div>
+				 	</div>
+				 </div>
+				 <div class="Collection">
+	    			<div class="poert"><img src="img/md06-13.png"></div>
+				 	<a class="Collection_tite">
+				 		***的舒适温暖的家
+				 	</a>
+				 	<div class="Collection_cont1">
+				 		<p><span class="left">订单号：123456789456</span><span class="right">房主名</span></p>
+				 		<p><span class="left">我们村头的豪华别墅</span><span class="right"><b>￥388 </b></span></p>
+				 		<p><a class="left">2017-11-07至2017-11-10</a></p>
+				 		<p><a class="left">天津市西青区某某街道某某小区某某号</a><a class="right"><input type="button" value="导航" class="ioncr" /></a></p>
+				 		<div class="webstate">
+				 			<a href="客房.html" class="right app_button_1">再次订房</a>
+				 		</div>
+				 	</div>
+				 </div>
+	    	
+	    	</div>
+	</div>
+ <script type="text/html" id="aonmt">
+ <div class="Collection">
+		<div class="poert"><img src="img/md06.png"></div>
+	 	<a class="Collection_tite">
+	 		***的舒适温暖的家
+	 	</a>
+	 	<div class="Collection_cont1">
+	 		<p><span class="left">订单号：123456789456</span><span class="right">房主名</span></p>
+	 		<p><span class="left">我们村头的豪华别墅</span><span class="right"><b>￥388 </b></span></p>
+	 		<p><a class="left">2017-11-07至2017-11-10</a></p>
+	 		<p><a class="left">天津市西青区某某街道某某小区某某号</a><a class="right"><input type="button" value="导航" class="ioncr" /></a></p>
+	 		<div class="webstate">
+	 			<a href="客房.html" class="right app_button_1">再次订房</a>
+	 			<a class="right app_button_1 spoert" msg-tite="您是否退订？">退 订</a>
+	 		</div>
+	 	</div>
+	 </div>
+ </script>  
+			
+</body>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="layui/layui.js"></script>
+<script src="layer/layer.js"></script>
+<script src="js/js.js"></script>
+<script>
+layui.use('flow', function(){
+  var $ = layui.jquery; //不用额外加载jQuery，flow模块本身是有依赖jQuery的，直接用即可。
+  var flow = layui.flow;
+  flow.load({
+    elem: '#LAY_demo1' //指定列表容器
+    ,done: function(page, next){ //到达临界点（默认滚动触发），触发下一页
+
+     // var lis = [];
+//      //以jQuery的Ajax请求为例，请求下一页数据（注意：page是从2开始返回）
+//      $.get('/api/list?page='+page, function(res){
+//        //假设你的列表返回在data集合中
+//        layui.each(res.data, function(index, item){
+//          lis.push('<div class="onetcnert"><a><img src="img/sy_icon06.png"><img src="img/sy_icon07.png" class="aonr_1"></a><p>***的家-南开</p><b>￥350</b></div>');
+//        }); 
+//        
+//        //执行下一页渲染，第二参数为：满足“加载更多”的条件，即后面仍有分页
+//        //pages为Ajax返回的总页数，只有当前页小于总页数的情况下，才会继续出现加载更多
+//        next(lis.join(''), page < res.pages);    
+//      });
+
+       setTimeout(function(){
+        var lis = [];
+        for(var i = 0; i < 8; i++){
+          lis.push($('#aonmt').html())
+        }
+        
+        //执行下一页渲染，第二参数为：满足“加载更多”的条件，即后面仍有分页
+        //pages为Ajax返回的总页数，只有当前页小于总页数的情况下，才会继续出现加载更多
+        next(lis.join(''), page < 10); //假设总页数为 10
+      }, 500);
+
+     
+    }
+  });
+});	
+</script>
+</html>
