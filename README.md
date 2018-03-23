@@ -8,7 +8,7 @@
 
 # 开发工具
  1. jkd
- 2.eclipse
+ 2. eclipse
  3. maven
 
 # 贡献代码
