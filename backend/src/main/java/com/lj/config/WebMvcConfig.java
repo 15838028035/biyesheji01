@@ -1,6 +1,6 @@
-package org.sang.config;
+package com.lj.config;
 
-import org.sang.common.DateConverter;
+import com.lj.common.DateConverter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.format.FormatterRegistry;

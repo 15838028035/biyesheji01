@@ -1,9 +1,9 @@
-package org.sang.mapper;
+package com.lj.mapper;
 
 import org.apache.ibatis.annotations.Param;
-import org.sang.bean.Hr;
-import org.sang.bean.MsgContent;
-import org.sang.bean.SysMsg;
+import com.lj.bean.Hr;
+import com.lj.bean.MsgContent;
+import com.lj.bean.SysMsg;
 
 import java.util.List;
 

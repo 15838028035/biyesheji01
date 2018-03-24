@@ -1,8 +1,8 @@
-package org.sang.service;
+package com.lj.service;
 
-import org.sang.bean.Menu;
-import org.sang.common.HrUtils;
-import org.sang.mapper.MenuMapper;
+import com.lj.bean.Menu;
+import com.lj.common.HrUtils;
+import com.lj.mapper.MenuMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

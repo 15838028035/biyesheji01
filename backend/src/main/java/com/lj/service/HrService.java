@@ -1,8 +1,8 @@
-package org.sang.service;
+package com.lj.service;
 
-import org.sang.bean.Hr;
-import org.sang.common.HrUtils;
-import org.sang.mapper.HrMapper;
+import com.lj.bean.Hr;
+import com.lj.common.HrUtils;
+import com.lj.mapper.HrMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

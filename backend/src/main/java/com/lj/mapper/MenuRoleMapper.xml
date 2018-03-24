@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="org.sang.mapper.MenuRoleMapper">
+<mapper namespace="com.lj.mapper.MenuRoleMapper">
     <delete id="deleteMenuByRid" parameterType="long">
         DELETE FROM menu_role WHERE rid=#{rid}
     </delete>

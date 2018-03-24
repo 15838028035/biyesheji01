@@ -1,7 +1,7 @@
-package org.sang.mapper;
+package com.lj.mapper;
 
 import org.apache.ibatis.annotations.Param;
-import org.sang.bean.Salary;
+import com.lj.bean.Salary;
 
 import java.util.List;
 

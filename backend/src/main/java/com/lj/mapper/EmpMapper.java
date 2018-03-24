@@ -1,9 +1,9 @@
-package org.sang.mapper;
+package com.lj.mapper;
 
 import org.apache.ibatis.annotations.Param;
-import org.sang.bean.Employee;
-import org.sang.bean.Nation;
-import org.sang.bean.PoliticsStatus;
+import com.lj.bean.Employee;
+import com.lj.bean.Nation;
+import com.lj.bean.PoliticsStatus;
 
 import java.util.Date;
 import java.util.List;

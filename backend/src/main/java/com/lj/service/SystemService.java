@@ -1,6 +1,6 @@
-package org.sang.service;
+package com.lj.service;
 
-import org.sang.mapper.SystemMapper;
+import com.lj.mapper.SystemMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

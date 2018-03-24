@@ -1,7 +1,7 @@
-package org.sang.service;
+package com.lj.service;
 
-import org.sang.bean.Salary;
-import org.sang.mapper.SalaryMapper;
+import com.lj.bean.Salary;
+import com.lj.mapper.SalaryMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

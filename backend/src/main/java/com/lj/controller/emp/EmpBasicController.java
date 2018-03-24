@@ -1,23 +1,24 @@
-package org.sang.controller.emp;
-
-import org.sang.bean.Employee;
-import org.sang.bean.Position;
-import org.sang.bean.RespBean;
-import org.sang.common.EmailRunnable;
-import org.sang.common.poi.PoiUtils;
-import org.sang.service.DepartmentService;
-import org.sang.service.EmpService;
-import org.sang.service.JobLevelService;
-import org.sang.service.PositionService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
+package com.lj.controller.emp;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ExecutorService;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.lj.bean.Employee;
+import com.lj.bean.Position;
+import com.lj.bean.RespBean;
+import com.lj.service.DepartmentService;
+import com.lj.service.EmpService;
+import com.lj.service.JobLevelService;
+import com.lj.service.PositionService;
 
 /**
  * Created by sang on 2018/1/12.
@@ -62,7 +63,7 @@ public class EmpBasicController {
                     employee.setPosName(allPo.getName());
                 }
             }
-            executorService.execute(new EmailRunnable(employee));
+          //  executorService.execute(new EmailRunnable(employee));
             return new RespBean("success", "添加成功!");
         }
         return new RespBean("error", "添加失败!");
@@ -92,19 +93,5 @@ public class EmpBasicController {
         map.put("emps", employeeByPage);
         map.put("count", count);
         return map;
-    }
-
-    @RequestMapping(value = "/exportEmp", method = RequestMethod.GET)
-    public ResponseEntity<byte[]> exportEmp() {
-        return PoiUtils.exportEmp2Excel(empService.getAllEmployees());
-    }
-
-    @RequestMapping(value = "/importEmp", method = RequestMethod.POST)
-    public RespBean importEmp(MultipartFile file) {
-        List<Employee> emps = PoiUtils.importEmp2List(file,empService.getAllNations(),empService.getAllPolitics(),departmentService.getAllDeps(),positionService.getAllPos(),jobLevelService.getAllJobLevels());
-        if (empService.addEmps(emps) == emps.size()) {
-            return new RespBean("success", "导入成功!");
-        }
-        return new RespBean("error", "导入失败!");
     }
 }

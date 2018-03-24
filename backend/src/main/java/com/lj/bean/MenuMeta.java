@@ -1,4 +1,4 @@
-package org.sang.bean;
+package com.lj.bean;
 
 /**
  * Created by sang on 2017/12/30.

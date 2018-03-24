@@ -1,7 +1,7 @@
-package org.sang.mapper;
+package com.lj.mapper;
 
 import org.apache.ibatis.annotations.Param;
-import org.sang.bean.Position;
+import com.lj.bean.Position;
 
 import java.util.List;
 

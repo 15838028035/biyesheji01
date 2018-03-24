@@ -1,4 +1,4 @@
-package org.sang.config;
+package com.lj.config;
 
 import org.springframework.security.access.AccessDecisionManager;
 import org.springframework.security.access.AccessDeniedException;

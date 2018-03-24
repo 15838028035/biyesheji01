@@ -1,7 +1,7 @@
-package org.sang.service;
+package com.lj.service;
 
-import org.sang.bean.Department;
-import org.sang.mapper.DepartmentMapper;
+import com.lj.bean.Department;
+import com.lj.mapper.DepartmentMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

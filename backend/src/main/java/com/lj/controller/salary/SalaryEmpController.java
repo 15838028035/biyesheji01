@@ -1,10 +1,10 @@
-package org.sang.controller.salary;
+package com.lj.controller.salary;
 
-import org.sang.bean.Employee;
-import org.sang.bean.RespBean;
-import org.sang.bean.Salary;
-import org.sang.service.EmpService;
-import org.sang.service.SalaryService;
+import com.lj.bean.Employee;
+import com.lj.bean.RespBean;
+import com.lj.bean.Salary;
+import com.lj.service.EmpService;
+import com.lj.service.SalaryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

@@ -1,8 +1,8 @@
-package org.sang.config;
+package com.lj.config;
 
-import org.sang.bean.Menu;
-import org.sang.bean.Role;
-import org.sang.service.MenuService;
+import com.lj.bean.Menu;
+import com.lj.bean.Role;
+import com.lj.service.MenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.ConfigAttribute;
 import org.springframework.security.access.SecurityConfig;

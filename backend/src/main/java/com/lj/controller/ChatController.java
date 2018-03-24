@@ -1,11 +1,11 @@
-package org.sang.controller;
+package com.lj.controller;
 
-import org.sang.bean.Hr;
-import org.sang.bean.MsgContent;
-import org.sang.bean.RespBean;
-import org.sang.bean.SysMsg;
-import org.sang.service.HrService;
-import org.sang.service.SysMsgService;
+import com.lj.bean.Hr;
+import com.lj.bean.MsgContent;
+import com.lj.bean.RespBean;
+import com.lj.bean.SysMsg;
+import com.lj.service.HrService;
+import com.lj.service.SysMsgService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

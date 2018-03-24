@@ -1,4 +1,4 @@
-package org.sang.mapper;
+package com.lj.mapper;
 
 import org.apache.ibatis.annotations.Param;
 

@@ -1,7 +1,7 @@
-package org.sang.controller.salary;
+package com.lj.controller.salary;
 
-import org.sang.bean.Department;
-import org.sang.service.DepartmentService;
+import com.lj.bean.Department;
+import com.lj.service.DepartmentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

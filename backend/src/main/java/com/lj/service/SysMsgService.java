@@ -1,10 +1,10 @@
-package org.sang.service;
+package com.lj.service;
 
-import org.sang.bean.Hr;
-import org.sang.bean.MsgContent;
-import org.sang.bean.SysMsg;
-import org.sang.common.HrUtils;
-import org.sang.mapper.SysMsgMapper;
+import com.lj.bean.Hr;
+import com.lj.bean.MsgContent;
+import com.lj.bean.SysMsg;
+import com.lj.common.HrUtils;
+import com.lj.mapper.SysMsgMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Service;

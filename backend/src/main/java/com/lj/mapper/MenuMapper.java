@@ -1,6 +1,6 @@
-package org.sang.mapper;
+package com.lj.mapper;
 
-import org.sang.bean.Menu;
+import com.lj.bean.Menu;
 
 import java.util.List;
 

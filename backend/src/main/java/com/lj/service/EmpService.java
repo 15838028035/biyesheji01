@@ -1,9 +1,9 @@
-package org.sang.service;
+package com.lj.service;
 
-import org.sang.bean.Employee;
-import org.sang.bean.Nation;
-import org.sang.bean.PoliticsStatus;
-import org.sang.mapper.EmpMapper;
+import com.lj.bean.Employee;
+import com.lj.bean.Nation;
+import com.lj.bean.PoliticsStatus;
+import com.lj.mapper.EmpMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

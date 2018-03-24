@@ -1,8 +1,8 @@
-package org.sang.config;
+package com.lj.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.sang.common.HrUtils;
-import org.sang.service.HrService;
+import com.lj.common.HrUtils;
+import com.lj.service.HrService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.BadCredentialsException;

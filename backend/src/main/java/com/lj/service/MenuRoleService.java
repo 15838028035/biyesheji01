@@ -1,7 +1,7 @@
-package org.sang.service;
+package com.lj.service;
 
 import org.apache.ibatis.annotations.Param;
-import org.sang.mapper.MenuRoleMapper;
+import com.lj.mapper.MenuRoleMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

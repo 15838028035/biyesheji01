@@ -1,8 +1,8 @@
-package org.sang.controller.system;
+package com.lj.controller.system;
 
-import org.sang.bean.Hr;
-import org.sang.bean.RespBean;
-import org.sang.service.HrService;
+import com.lj.bean.Hr;
+import com.lj.bean.RespBean;
+import com.lj.service.HrService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

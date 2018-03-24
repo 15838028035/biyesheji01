@@ -1,7 +1,7 @@
-package org.sang.service;
+package com.lj.service;
 
-import org.sang.bean.Role;
-import org.sang.mapper.RoleMapper;
+import com.lj.bean.Role;
+import com.lj.mapper.RoleMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

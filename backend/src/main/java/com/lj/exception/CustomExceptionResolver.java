@@ -1,4 +1,4 @@
-package org.sang.exception;
+package com.lj.exception;
 
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Component;

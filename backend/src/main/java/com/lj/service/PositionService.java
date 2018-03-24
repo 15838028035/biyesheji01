@@ -1,8 +1,8 @@
-package org.sang.service;
+package com.lj.service;
 
-import org.sang.bean.JobLevel;
-import org.sang.bean.Position;
-import org.sang.mapper.PositionMapper;
+import com.lj.bean.JobLevel;
+import com.lj.bean.Position;
+import com.lj.mapper.PositionMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,7 +1,7 @@
-package org.sang.controller.system;
+package com.lj.controller.system;
 
-import org.sang.bean.*;
-import org.sang.service.*;
+import com.lj.bean.*;
+import com.lj.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

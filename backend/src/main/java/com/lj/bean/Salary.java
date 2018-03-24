@@ -1,4 +1,4 @@
-package org.sang.bean;
+package com.lj.bean;
 
 import java.util.Date;
 

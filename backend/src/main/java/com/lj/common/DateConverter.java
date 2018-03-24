@@ -1,4 +1,4 @@
-package org.sang.common;
+package com.lj.common;
 
 import org.springframework.core.convert.converter.Converter;
 

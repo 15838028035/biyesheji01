@@ -1,9 +1,9 @@
-package org.sang.controller;
+package com.lj.controller;
 
-import org.sang.bean.Hr;
-import org.sang.bean.Menu;
-import org.sang.common.HrUtils;
-import org.sang.service.MenuService;
+import com.lj.bean.Hr;
+import com.lj.bean.Menu;
+import com.lj.common.HrUtils;
+import com.lj.service.MenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
